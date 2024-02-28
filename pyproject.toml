@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "TuneTrend"
+version = "0.1.0"
+description = "The project is about analyzing my Spotify usage pattern"
+authors = ["Udit Kumar Chatterjee <quantumudit@gmail.com>"]
+license = "NC-SA"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+httpx = "^0.26.0"
+numpy = "^1.26.4"
+pandas = "^2.2.0"
+matplotlib = "^3.8.2"
+seaborn = "^0.13.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.0"
+pre-commit = "^3.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
